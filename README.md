@@ -1,5 +1,5 @@
 基于MatrixPanel的signalRGB点阵屏幕，内置WiFiweb服务、udp、AP配网、仿WLED协议与signalRGB建立通讯，因为esp32s3的udp数据处理能力有限，特将signalRGB输出的数据进行压缩传送，使用此代码需要替换signalRGB的WLED.JS文件。
-使用的是ESP32S3和40*80的点阵板
+使用的是ESP32S3/Arduino和40*80的点阵板
 希望各位大神优化细节上的问题。
 
 
