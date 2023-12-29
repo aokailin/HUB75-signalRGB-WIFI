@@ -10,7 +10,7 @@ https://github.com/aokailin/signalRGB-/assets/110108894/470b2919-930f-4cf5-a61e-
 
 
 
-
+这个是WLED.JS需要修改的地方：
 		for(let CurrPacket = 0; CurrPacket <Math.ceil(NumPackets / 2); CurrPacket++) {
 			const startIdx = CurrPacket * MaxLedsInPacket;
 			const highByte = ((startIdx >> 8) & 0xFF);
